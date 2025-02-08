@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.reward img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#gift-code {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: green;
+}
